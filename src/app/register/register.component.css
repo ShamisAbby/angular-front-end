@@ -1,0 +1,17 @@
+button{
+  margin-bottom: 12px;
+}
+form {
+  float: right;
+  padding: 2px;
+  width: 70%;
+  height: 300px;
+}
+input{
+  margin-bottom: 12px;
+  width: 70%;
+
+}
+header{
+  color: antiquewhite;
+}

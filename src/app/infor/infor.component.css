@@ -1,0 +1,32 @@
+button{
+  margin-bottom: 12px;
+}
+h1{
+  float: right;
+    padding: 64;
+    width: 70%;
+    height: 24px;
+}
+ul{
+  float: right;
+}
+
+
+li{
+  margin-bottom: auto;
+}
+p{
+  float: right;
+  margin-bottom: 2px;
+  padding-bottom: ;
+}
+form{
+  float: right;
+  padding: 64;
+  width: 70%;
+  height: 24px;
+}
+button{
+  margin-right: 10px;
+
+}

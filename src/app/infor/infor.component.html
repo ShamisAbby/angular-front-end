@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color:  rgb(63, 3, 68);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 1500px;
+  background:  rgb(63, 3, 68);
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:  rgb(63, 3, 68);
+  height: 300px;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>BIRTH CERTIFICATE</h2>
+</header>
+
+<section>
+  <form action="/action_page.php">
+    <h1>CHILD1 INFORMATION</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2>Child Information</h2>
+  <div class="mb-3 mt-3">
+    <label for="text" class="form-label"><b>Name:</b></label>
+  </div>
+  <div class="mb-3">
+    <label for="text" class="form-label"><b>Place Of Birth:</b></label>
+  </div>
+  <div class="mb-3">
+    <label for="time" class="form-label"><b>Time:</b></label>
+</div>
+<div class="mb-3">
+  <label for="date" class="form-label"><b>Birth Date:</b></label>
+</div>
+<div class="mb-3">
+  <label for="text" class="form-label"><b>Hospital:</b></label><hr>
+</div>
+<h2>Mother Information</h2>
+<div class="mb-3 mt-3">
+  <label for="text" class="form-label"><b>Name:</b></label>
+</div>
+<div class="mb-3">
+  <label for="text" class="form-label"><b>Birth Date:</b></label>
+</div>
+<div class="mb-3">
+  <label for="time" class="form-label"><b>Occupation:</b></label>
+</div>
+<div class="mb-3">
+<label for="date" class="form-label"><b>Nationality:</b></label>
+</div>
+<div class="mb-3">
+<label for="text" class="form-label"><b>Tribe:</b></label>
+</div>
+<div class="mb-3">
+  <div class="mb-3">
+    <button type="view" class="form-label">View Married Certificate:</button>
+    </div>
+    <div class="mb-3">
+    <button type="view" class="form-label">View NationalID:</button>
+    </div>
+    <div class="mb-3">
+    <button type="view" class="form-label">View Birth Certificate:</button><hr>
+    </div>
+  </div>
+<h2>Father Information</h2>
+<div class="mb-3 mt-3">
+  <label for="text" class="form-label"><b>Name:</b></label>
+</div>
+<div class="mb-3">
+  <label for="time" class="form-label"><b>Occupation:</b></label>
+</div>
+<div class="mb-3">
+<label for="date" class="form-label"><b>Nationality:</b></label>
+</div>
+<div class="mb-3">
+<label for="text" class="form-label"><b>Tribe:</b></label>
+</div>
+<div class="mb-3">
+  <button type="view" class="form-label">View Married Certificate:</button>
+  </div>
+  <div class="mb-3">
+  <button type="view" class="form-label">View NationalID:</button>
+  </div>
+  <div class="mb-3">
+  <button type="view" class="form-label">View Birth Certificate:</button><hr>
+  </div>
+  <button type="Apload Payment Receipt" placeholder="Apload">Apload Paymant Receipt</button>
+  <br>
+  <br>
+ <a routerLink="/doc"> <button type="submit" class="btn btn-primary">CONFIRM</button></a>
+
+ <a routerLink="/uncomfirmed"><button type="submit" class="btn btn-primary">SAVE</button></a>
+
+</form>
+    <nav>
+      <a routerLink="/doc"><button type="submit" class="btn btn-primary ">NEW DOC</button></a>
+      <br>
+  </nav>
+</section>
+</body>
+
+</html>
+
+
+

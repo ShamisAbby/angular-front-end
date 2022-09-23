@@ -1,0 +1,17 @@
+
+input{
+  margin-bottom: 12px;
+  width: 70%;
+  }
+  div{
+    float: right;
+    padding: 64;
+    width: 70%;
+    height: 24px;
+
+  }
+button{
+  background-color: blue;
+}
+
+
